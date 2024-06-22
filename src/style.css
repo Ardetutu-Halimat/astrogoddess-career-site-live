@@ -1,4 +1,4 @@
-
+/* Base styles (extra small devices - mobile) */
 html{ 
     font-size: 14px;
 }
@@ -7,7 +7,7 @@ body{
     padding: 0%;
     font-family: Arial, sans-serif;
     text-align: justify;
-    font-size: 1em;
+    font-size: 1rem;
     
 }
 
@@ -30,17 +30,24 @@ a:hover, a:focus{
     color:#1d4ed8
 }
 
-
+/* Small devices (tablet) */
 @media screen and (min-width: 576px) {
     html{ 
-        font-size: 20px;
+     font-size: 16px;
     }
 }
+/* medium devices (laptops) */
 @media screen and (min-width: 768px) {
+    html{ 
+        font-size: 18px;
+       }
     
 }
+/* Large devices (desktops) */
 @media screen and (min-width: 992px) {
-    
+    html{ 
+        font-size: 20px;
+       }
 }
 
 
